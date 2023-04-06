@@ -1,0 +1,135 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: $main-font;
+    margin-bottom: 35px;
+    flex-wrap: wrap;
+
+    @media (max-width: 1520px) {
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (max-width: 1100px) {
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &-post {
+      width: 100%;
+      border: 7px solid $black;
+      border-bottom-right-radius: 8px;
+      box-shadow: 4px 7px $black;
+      text-decoration: none;
+      transition: 0.25s ease-in-out;
+      background: $darker-white;
+      max-width: 480px;
+
+      @media (max-width: 1520px) {
+        max-width: 345px;
+      }
+
+      @media (max-width: 1100px) {
+        max-width: 47.5%;
+      }
+
+      @media (max-width: 480px) {
+        max-width: 100%;
+      }
+
+      &:hover {
+        box-shadow: 0px 0px 0px 5px $black;
+      }
+
+      &-author {
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+
+        background: $darker-white;
+
+        &-img {
+          border-radius: 100%;
+        }
+
+        &-name {
+          font-size: 1.1rem;
+          font-weight: 700;
+        }
+      }
+
+      &-cover {
+        display: block;
+      }
+
+      &-date {
+        padding: 3px 5px;
+        background: $black;
+        color: $white;
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+      }
+
+      &-excerpt {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 1rem;
+        margin-bottom: 10px;
+      }
+
+      &-readmore {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 1.2rem;
+        text-decoration: underline;
+        margin-bottom: 10px;
+      }
+
+      &-title {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 2rem;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  &__pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3px;
+
+    &-number {
+      background: $darker-white;
+      color: $black;
+      border: 3px solid $black;
+      font-family: $main-font;
+      padding: 5px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: 0.2s ease-in-out;
+
+      &--active {
+        background: $black;
+        color: $darker-white;
+        pointer-events: none;
+      }
+
+      &:hover {
+        background: $black;
+        color: $darker-white;
+      }
+    }
+  }
+}
