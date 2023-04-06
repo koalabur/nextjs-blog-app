@@ -1,3 +1,13 @@
+## What's Going On?
+
+![alt text](https://lh4.googleusercontent.com/Ii4fCi3e4TtyyQIW22XtYmG369dECs0oheOuKDdsmvrNMDDKQJ5zQwm3l7g9twToVSo=w2400 "Next 3") [Next 3](https://nextjs.org/)
+
+![alt text](https://lh6.googleusercontent.com/FU5h_Q0As38kMoqvxtWEmzK10JkainV6PdkepauYdChfg4V_vFi4qpqc-hQnAch1PsU=w2400 "Contentful") [Contentful](https://www.contentful.com/)
+
+![alt text](https://lh3.googleusercontent.com/P-ZUEk2nqRdojQZXEDr72g-2z92yxlwHwdfjYo2A_eu10pr6GjtmnftRKG3JSOcphV8=w2400 "Vercel") [Vercel](https://vercel.com/)
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
