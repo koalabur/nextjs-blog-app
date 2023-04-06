@@ -6,6 +6,12 @@
 
 ![alt text](https://lh3.googleusercontent.com/P-ZUEk2nqRdojQZXEDr72g-2z92yxlwHwdfjYo2A_eu10pr6GjtmnftRKG3JSOcphV8=w2400 "Vercel") [Vercel](https://vercel.com/)
 
+This Next.js web app was created to showcase:
+- Next.js/ React usage
+- Dynamic URLs
+- Content generated through the Contentful API
+- Fetching content using GraphQL
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
